@@ -18,9 +18,9 @@ const config = {
 };
 Replace YOUR_CLIENT_ID and YOUR_CLIENT_SECRET with your actual Spotify API credentials.
 
-Open index.html in a web browser.
+4.Open index.html in a web browser.
 
-Note
+Note :
 This project requires a web server to run properly due to CORS restrictions when making API requests. You can use a simple HTTP server like Python's http.server or Node.js http-server.
 For Python:
 Copypython -m http.server 8000
@@ -30,7 +30,7 @@ Install http-server: npm install -g http-server
 Run: http-server
 
 Then open http://localhost:8000 in your web browser.
-Technologies Used
+#Technologies Used
 
 HTML5
 CSS3
@@ -39,7 +39,7 @@ Chart.js for data visualization
 Anime.js for animations
 Spotify Web API
 
-Features
+#Features
 
 Fetches and displays data from Spotify API
 Interactive charts showing track popularity, genre distribution, and monthly releases
